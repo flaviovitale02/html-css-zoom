@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+main{
+    height:calc(100vh - 30px - 100px);
+    overflow-y: auto;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    align-items: center;
+}
+
+.description{
+    color: white;
+    border: solid 4px grey;
+    background-color: grey;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.item{
+    color: white;
+    border: solid  grey;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-inline: 100px;
+    
+
+}
+
+.cards{
+    flex-basis: 15%;
+    position: relative;
+    aspect-ratio: 1.6 / 1;
+    
+
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.username{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color:white;
+    border: solid rgb(0, 0, 0);
+    background-color: #000000;
+    opacity: 80%;
+}
+
+
+.footer-container{
+    display: flex;
+    color: white;
+    height: 100px;
+    background-color: rgb(30, 30, 53);
+    justify-content:space-between;
+
+}
+
+
+nav i{
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.bottom-left{
+display: flex;
+}
+
+.bottom-dash{
+    display: flex;
+    align-items: center;
+}
+
+.green{
+    color: rgb(31, 246, 31);
+}
+
+
+.bottom-center{
+    display: flex;
+}
+
+.bottom-dash{
+    gap: 1rem;
+}
+
+
+
+.close{
+    border: solid grey 40px;
+    background-color: grey;
+    color: red;
+    
+
+}
+
+.last-bottom{
+    display: flex;
+    align-items: center;
+}
